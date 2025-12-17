@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat UI Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="neon-border-container">
+        <div class="app-container">
+            <div class="chat-list">
+                <!-- Chat list items will go here -->
+                <div class="chat-list-header">
+                    <h2>Chats</h2>
+                </div>
+                <div class="chat-list-items">
+                    <!-- Example Chat Item -->
+                    <div class="chat-item active">
+                        <div class="chat-avatar"></div>
+                        <div class="chat-info">
+                            <div class="chat-name">John Doe</div>
+                            <div class="last-message">Hey, how are you?</div>
+                        </div>
+                        <div class="chat-meta">
+                            <div class="message-time">10:30 AM</div>
+                            <div class="unread-count">3</div>
+                        </div>
+                    </div>
+                    <div class="chat-item">
+                        <div class="chat-avatar"></div>
+                        <div class="chat-info">
+                            <div class="chat-name">Jane Smith</div>
+                            <div class="last-message">See you tomorrow!</div>
+                        </div>
+                        <div class="chat-meta">
+                            <div class="message-time">Yesterday</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-list-footer">
+                    <p>Made by Abhiraj Dixit</p>
+                </div>
+            </div>
+            <div class="chat-window">
+                <div class="chat-header">
+                    <div class="chat-header-info">
+                        <div class="chat-avatar"></div>
+                        <div class="chat-details">
+                            <div class="chat-name">John Doe</div>
+                            <div class="chat-status">online</div>
+                            <div class="typing-indicator" style="display: none;">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-header-actions">
+                        <!-- Actions like call, video call, etc. -->
+                    </div>
+                </div>
+                <div class="messages-area">
+                    <!-- Messages will go here -->
+                    <div class="message received">
+                        <div class="message-bubble">
+                            Hi there!
+                            <div class="message-meta">
+                                <span class="message-time">10:28 AM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message sent">
+                        <div class="message-bubble">
+                            Hello! I'm good, how about you?
+                            <div class="message-meta">
+                                <span class="message-time">10:30 AM</span>
+                                <span class="message-status">✓✓</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message received">
+                        <div class="message-bubble">
+                            I'm doing great, thanks for asking!
+                            <div class="message-meta">
+                                <span class="message-time">10:31 AM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-bar">
+                    <textarea id="message-input" placeholder="Type a message..."></textarea>
+                    <button id="clear-button" class="input-bar-button">🗑️</button>
+                    <button id="send-button" class="input-bar-button">SEND</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
