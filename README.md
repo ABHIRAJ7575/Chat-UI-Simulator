@@ -1,4 +1,6 @@
 # Chat UI Simulator
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2eac4978-9c36-4286-892b-a6d2b43f8b83" />
+
 
 A clean, dark-mode, WhatsApp-inspired chat UI simulator built using pure HTML, CSS, and vanilla JavaScript.  
 This project focuses on realistic chat interactions, smooth UI behavior, and professional frontend structure without using any frameworks or backend services.
