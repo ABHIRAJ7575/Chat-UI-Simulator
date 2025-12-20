@@ -6,6 +6,10 @@
 A clean, dark-mode, WhatsApp-inspired chat UI simulator built using pure HTML, CSS, and vanilla JavaScript.  
 This project focuses on realistic chat interactions, smooth UI behavior, and professional frontend structure without using any frameworks or backend services.
 
+## Demo
+
+**Live Preview:** [View Demo](#) _(https://abhiraj7575.github.io/Chat-UI-Simulator/)_
+
 ## Features
 - Dark-mode only, clean and modern UI
 - Mobile-first responsive layout
