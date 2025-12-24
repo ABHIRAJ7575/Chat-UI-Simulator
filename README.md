@@ -8,7 +8,7 @@ This project focuses on realistic chat behavior, smooth UI interactions, and a f
 
 Demo
 
-Live Preview: View Demo
+Live Preview: View Demo _(https://abhiraj7575.github.io/Chat-UI-Simulator/)_
 
 Open it, type a message, feel productive for 5 seconds, then admire the UI like a true frontend dev 😎
 
