@@ -1,12 +1,12 @@
-Chat UI Simulator
+# Chat UI Simulator
 
 Because building an actual backend, handling real users, and dealing with real-time bugs sounded exhausting — so here’s a fake chat that behaves suspiciously well.
 
-Live Demo: https://abhiraj7575.github.io/Chat-UI-Simulator/
+## Live Demo: https://abhiraj7575.github.io/Chat-UI-Simulator/
 
 A WhatsApp-style chat UI where messages feel real, but the responsibilities are imaginary.
 
-What Exactly Is This?
+## What Exactly Is This?
 
 A front-end-only chat UI simulator built with pure HTML, CSS, and vanilla JavaScript.
 No backend. No database. No WebSockets screaming at 3 AM.
@@ -25,7 +25,7 @@ Like their chats responsive but their responsibilities minimal
 
 Believe frontend deserves respect too
 
-Features (That Look More Serious Than They Are)
+## Features (That Look More Serious Than They Are)
 
 Dark Mode Only 🌚
 Because light mode chat apps feel like an interrogation room.
